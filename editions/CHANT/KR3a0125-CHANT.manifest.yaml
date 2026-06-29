@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3a0125/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0125/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 夏侯子新論一卷
+  identifiers:
+    krp: KR3a0125
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0125.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0125_001-CHANT.yaml, hash: 'sha256:7ea5449ec6dfd44584b6ea031687165d9a077d4b342c1737c9adf36bcafc817a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0125_001-CHANT.markers.yaml, hash: 'sha256:0208d66a75b842eb3e929cf013aa49e7f3c69be64c29da154e2fa5872a76bd0c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0125_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2178
+  label: 夏侯子新論
+  type: section
+  level: 1
+hash: sha256:eeab8e7f6c088847f3b981dc91b44f654f31fd7b669dc7beeb2a73450e98d3cb
